@@ -29,6 +29,8 @@ ramdisk_compression=auto;
 # import patching functions/variables - see for reference
 . tools/ak3-core.sh;
 
+## Importing hcore
+#. hcore/hcore.sh;
 
 ## AnyKernel file attributes
 # set permissions/ownership for included ramdisk files
@@ -39,8 +41,15 @@ set_perm_recursive 0 0 750 750 $ramdisk/init* $ramdisk/sbin;
 ## AnyKernel install
 dump_boot;
 
-# end ramdisk changes
-
 write_boot;
+
+#
+# Hill-core part (UNFINISHED DO NOT ENABLE THIS!!!)
+#
+
+#hcore
+
+# END OF HCORE
+
 ## end install
 

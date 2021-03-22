@@ -1,5 +1,4 @@
 #!/sbin/sh
-# AnyKernel3 Backend (DO NOT CHANGE)
 # osm0sis @ xda-developers
 
 OUTFD=/proc/self/fd/$2;
@@ -460,7 +459,8 @@ if [ -f version ]; then
   ui_print " ";
 fi;
 ui_print " " "AnyKernel3 by osm0sis @ xda-developers" " " " ";
-ui_print " " "Modified by @Hilledkinged / Martin Valba" " " " ";
+ui_print " " "---------------NetErnels---------------" " " " ";
+ui_print " " "Modified by Hilledkinged / Martin Valba" " " " ";
 
 setup_env;
 
